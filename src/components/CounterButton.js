@@ -22,7 +22,6 @@ class CounterButton extends React.Component {
   }
 
   render() {
-    console.log("CounterButton");
     return (
       <button className="f6 link dim ba bw2 ph3 pv2 mb2 dib purple" color={this.props.color} onClick={this.updateCount}>
         Count: {this.state.count}
