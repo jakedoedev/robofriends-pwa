@@ -5,6 +5,7 @@
   "homepage": "https://jakedoedev.github.io/robofriends-pwa",
   "dependencies": {
     "gh-pages": "^2.0.1",
+    "nock": "^10.0.2",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
     "react-redux": "^5.1.0",
@@ -30,5 +31,11 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.6.0",
+    "fetch-mock": "^7.2.5",
+    "redux-mock-store": "^1.5.3"
+  }
 }
